@@ -85,6 +85,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   padding: 32px 0;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .header-border-link {
@@ -129,6 +130,7 @@ body {
   align-items: center;
   flex-direction: row-reverse;
   fill: #757575;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .header-auth-link:hover,
@@ -189,6 +191,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) box-shadow 250ms;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -315,6 +318,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms;
+  border-radius: 50%;
 }
 
 .team-icon-link:hover,
@@ -349,6 +354,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) border-color 250ms;
 }
 
 .clients-link:hover,
@@ -385,6 +391,7 @@ body {
   line-height: 1.7;
   color: #ffffff;
   font-style: normal;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) color 250ms;
 }
 
 .contact-link {
@@ -392,6 +399,7 @@ body {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) color 250ms;
 }
 
 .adress-link:hover,
@@ -446,19 +454,17 @@ body {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms;
 }
 
 .footer-soc-icon {
   fill: #ffffff;
 }
 
-.footer-icon-item:hover {
+.footer-icon-link:focus,
+.footer-icon-link:hover {
   background-color: var(--accent-color);
   border-radius: 50%;
-}
-
-.footer-icon-link:focus {
-  background-color: var(--accent-color);
 }
 
 .footer-position {
@@ -580,6 +586,7 @@ body {
   padding: 6px 22px;
   border-radius: 4px;
   border-color: transparent;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) box-shadow 250ms;
 }
 
 .portfolio-btn:hover,
